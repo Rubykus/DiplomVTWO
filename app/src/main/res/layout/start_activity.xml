@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"/>
+
+    <com.rubykus.realmvtwo.ui.RoundedImageView
+        android:src="@drawable/categories"
+        android:background="@drawable/shape_circle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+
+        android:id="@+id/imageCat"/>
+    <com.rubykus.realmvtwo.ui.RoundedImageView
+        android:background="@drawable/shape_circle"
+        android:src="@drawable/goods"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@id/imageCat"
+
+        android:id="@+id/imageGood"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/categories"
+        android:id="@+id/textCat"
+        android:layout_below="@+id/imageCat"
+        android:layout_marginLeft="75dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goods"
+        android:id="@+id/textGood"
+        android:layout_below="@+id/imageGood"
+        android:layout_marginLeft="225dp" />
+
+    <com.rubykus.realmvtwo.ui.RoundedImageView
+        android:src="@drawable/card"
+        android:background="@drawable/shape_circle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/textCat"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/imageCard"/>
+
+    <com.rubykus.realmvtwo.ui.RoundedImageView
+        android:src="@drawable/sale"
+        android:background="@drawable/shape_circle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/textGood"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@id/imageCard"
+        android:id="@+id/imageSale"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sales"
+        android:id="@+id/textSale"
+        android:layout_below="@+id/imageSale"
+        android:layout_marginLeft="222dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/basket"
+        android:id="@+id/textCheck"
+        android:layout_below="@+id/imageCard"
+        android:layout_marginLeft="83dp" />
+
+</RelativeLayout>

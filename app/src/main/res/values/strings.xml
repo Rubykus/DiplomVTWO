@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Hats</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--menu-->
+    <string name="add">Добавить</string>
+    <string name="update">Изменить</string>
+    <string name="delete">Удалить</string>
+    <!--sidebar-->
+    <string name="categories">Категории</string>
+    <string name="goods">Товары</string>
+    <string name="sales">Продажи</string>
+    <string name="footer_menu">Системные</string>
+    <string name="about_us">О нас</string>
+    <string name="exit">Выход</string>
+    <!--categories-->
+    <string name="cat_name">Название категории</string>
+    <string name="new_cat">Новая категория</string>
+    <!--card-->
+    <string name="basket">Корзина</string>
+    <string name="empty_basket">Пустая корзина</string>
+    <!--sale-->
+    <string name="new_sale">Новая продажа</string>
+    <string name="good_name_for_sale">Название товара</string>
+    <string name="show_check">Показать чек</string>
+    <!--goods-->
+    <string name="new_good">Новая товар</string>
+    <string name="all_good">Все товары</string>
+    <string name="id">Код товара</string>
+    <string name="good_name">Название</string>
+    <string name="cat_name_for_good">Категория</string>
+    <string name="good_color">Цвет</string>
+    <string name="good_sex">Пол</string>
+    <string name="good_firm">Фирма</string>
+    <string name="good_quantity">Количество</string>
+    <string name="good_price">Цена</string>
+    <string name="good_img">Изображение</string>
+    <string name="money">UAH</string>
+    <!--for all-->
+    <string name="date">Дата</string>
+    <string name="cost">Стоимость</string>
+    <string name="cancle">Отмена</string>
+    <string name="error_validations">Неправильно введены данные</string>
+    <string name="add_to_basket">В корзину</string>
+    <string name="price_list">Прайс-лист</string>
+
+</resources>
